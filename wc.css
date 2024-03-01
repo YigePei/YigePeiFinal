@@ -1,0 +1,88 @@
+*{
+				padding: 0;
+				margin: 0;
+			}	
+			img {
+			  vertical-align: middle;
+			}
+			.menu{
+				line-height: 60px;
+				padding: 10px;
+				margin: auto;
+				background-color: rgba(112,69,53,1.00);
+				color: aliceblue;
+				}
+				.menu>ul {
+			    line-height: 40px;
+			    margin-left: 200px;
+			    padding: 0;
+			    text-align:center;
+			}
+			
+				.menu li {
+			  display: inline-block;
+			  margin-right: 60px;
+			  width: 100px;
+			  height: 40px;
+			  /* 其他样式属性 */
+			  box-shadow: none; /* 首先将 li 标签原有的边框样式清除 */
+			}
+				.menu li a {
+			  		color: aliceblue;
+					text-decoration: none;
+			}
+				.menu li:hover {
+			  box-shadow: inset 0 0 0 1px #ffffff, /* 内层白色虚线边框 */
+			              inset 0 0 0 1px #000000; /* 外层黑色实线边框 */
+			}
+				.no-boxshadow:hover{
+				box-shadow:0 0 0 transparent!important;
+			} 
+
+			
+			/* 鼠标悬停样式 */
+			.search-box:hover input[type="text"] {
+			  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+			}
+			
+			.search-box:hover button i {
+			  color: #333;
+			}
+
+			.menu li:hover .droplist{
+			            display: block;  
+			        }
+					.grid2>div{
+					overflow: hidden;
+					}
+					.grid2>div img{
+						
+						width: 100%;
+						height: 100%;
+						transition:transform 0.5s ease-out;
+					}
+					.bottom{
+						background: rgba(205,180,98,1.00);
+					}
+					.bottom:hover {
+						 background-color: #ccc;
+					}
+					.bottom1{
+						background: rgba(112,69,53,1.00);color: antiquewhite;padding: 10px;line-height: 40px;
+					}
+					.bottom1:hover{
+						background-color:rgba(195,139,94,1.00);
+					}
+					.cc3 a:hover{
+						color: aliceblue;
+					}
+					.cc3 li:hover{
+						color: rgba(243,124,33,1.00);
+					}
+					
+					body{
+						background-color: rgba(229,198,174,1.00);
+					}
+			.bottomm{
+				background-color: #ccb562;
+			}
