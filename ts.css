@@ -25,8 +25,8 @@
 			  margin-right: 60px;
 			  width: 100px;
 			  height: 40px;
-			  /* 其他样式属性 */
-			  box-shadow: none; /* 首先将 li 标签原有的边框样式清除 */
+			  /* Other style properties */
+			  box-shadow: none; /* First clear the original border style of the li tag */
 			}
 				.menu li a {
 			  		color: aliceblue;
@@ -34,15 +34,15 @@
 			}
 				.menu li:hover {
 			 
-			  box-shadow: inset 0 0 0 1px #ffffff, /* 内层白色虚线边框 */
-			              inset 0 0 0 1px #000000; /* 外层黑色实线边框 */
+			  box-shadow: inset 0 0 0 1px #ffffff, /* Inner white dotted border */
+			              inset 0 0 0 1px #000000; /* Outer black solid border */
 			}
 				.no-boxshadow:hover{
 				box-shadow:0 0 0 transparent!important;
 			} 
 			
 			
-			/* 鼠标悬停样式 */
+			/* Mouseover style */
 			.search-box:hover input[type="text"] {
 			  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 			}
@@ -50,13 +50,13 @@
 			.search-box:hover button i {
 			  color: #333;
 			}
-			/*下拉菜单*/
+			/*Drop-down menu*/
 			
 			.menu li:hover .droplist{
 			            display: block;  
 			        }
 
-			/*文字滚动*/
+			/*text scroll*/
 			.scrollbox {
 			  overflow: hidden;
 			  position: relative;
@@ -79,7 +79,7 @@
 			  }
 			}
 			
-			/*滚动结束*/
+			/*end of scroll*/
 			
 			.container {
 			  position: relative;
@@ -90,7 +90,7 @@
 			 width:100%;
 			  height: auto;
 			}
-			/*图片蒙板*/
+			/*Picture mask*/
 			.mask {
 			  position: absolute;
 			  top: 0;
@@ -117,7 +117,7 @@
 			  transform: translate(-50%, -50%);
 			}
 
-			/*图片从左边滑出文字介绍*/
+			/*The picture slides out the text introduction from the left*/
 			.img-container {
 			    position: relative;
 			    overflow: hidden;
@@ -125,25 +125,25 @@
 			
 			.intro-container {
 			  position: absolute;
-			  left: 0; /* 初始位置为图片左侧 */
+			  left: 0; /* The initial position is the left side of the picture */
 			  bottom: 0;
 			  background-color: rgba(0, 0, 0, 0.8);
 			  color: #fff;
 			  z-index: 0;
 			  width: 100%;
 			 height: 30%;
-			  transform: translateX(-100%); /* 初始不可见，向左平移100% */
-			   transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out; /* 添加 transition 属性 */
+			  transform: translateX(-100%); /* Invisible initially, pan 100% to the left */
+			   transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out; /* Add transition attribute */
 			  opacity: 0;
 			  overflow: hidden;
 			}
 			
 			.img-container:hover .intro-container {
-			  transform: translateX(0); /* 鼠标悬停时，向右平移100% */
+			  transform: translateX(0); /* On mouseover, pan right 100% */
 			  opacity: 1;
 			}
 			
-			/*图片从下边滑出文字介绍*/
+			/*The text introduction slides out from the bottom of the picture*/
 			.img-container2 {
 			    position: relative;
 			    overflow: hidden;
@@ -156,14 +156,14 @@
 			  color: #fff;
 			  width: 100%;
 				height: 40%;
-			  transform: translateY(100%); /* 初始不可见，向下平移100% */
-			   transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out; /* 添加 transition 属性 */
+			  transform: translateY(100%); /* Invisible initially, pan down 100% */
+			   transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out; /* Add transition attribute */
 			  opacity: 0;
 			  overflow: hidden;
 			}
 			
 			.img-container2:hover .intro-container2 {
-			  transform: translateY(0); /* 鼠标悬停时，向右平移100% */
+			  transform: translateY(0); /* On mouseover, pan right 100% */
 			  opacity: 1;
 			}
 			.grid1{

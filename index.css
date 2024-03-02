@@ -24,22 +24,22 @@
 			  margin-right: 60px;
 			  width: 100px;
 			  height: 40px;
-			  /* 其他样式属性 */
-			  box-shadow: none; /* 首先将 li 标签原有的边框样式清除 */
+			  /* Other style properties */
+			  box-shadow: none; /* First clear the original border style of the li tag */
 			}
 				.menu li a {
 			  		color: aliceblue;
 					text-decoration: none;
 			}
 				.menu li:hover {
-			  box-shadow: inset 0 0 0 1px #ffffff, /* 内层白色虚线边框 */
-			              inset 0 0 0 1px #000000; /* 外层黑色实线边框 */
+			  box-shadow: inset 0 0 0 1px #ffffff, /* Inner white dotted border */
+			              inset 0 0 0 1px #000000; /* Outer black solid border */
 			}
 				.no-boxshadow:hover{
 				box-shadow:0 0 0 transparent!important;
 			} 
 			
-			/* 鼠标悬停样式 */
+			/* Mouseover style */
 			.search-box:hover input[type="text"] {
 			  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 			}
@@ -47,7 +47,7 @@
 			.search-box:hover button i {
 			  color: #333;
 			}
-			/*下拉菜单*/
+			/*Drop-down menu*/
 			
 			.menu li:hover .droplist{
 			            display: block;  
@@ -82,7 +82,7 @@
 				transition: transform 0.3s ease-out;
 				
 			}
-			/*文字滚动*/
+			/*text scroll*/
 			.scrollbox {
 			  overflow: hidden;
 			  position: relative;
@@ -102,7 +102,7 @@
 			    transform: translateY(-100%);
 			  }
 			}
-			/*滚动结束*/
+			/*end of scroll*/
 			
 			.gridBottom{
 				display:grid;
